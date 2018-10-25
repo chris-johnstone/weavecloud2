@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: gcr.io/trusty-drive-219516/r/go-hello-world
+        image: gcr.io/trusty-drive-219516/go-hello-world:master-7e20efe
         ports:
         - containerPort: 8080
